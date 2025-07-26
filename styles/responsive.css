@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+.noto-serif-font {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 40px;
+  background-color: #f5f7fc;
+  width: 1140px;
+  margin: 0 auto;
+}
+
+.logo {
+  align-items: center;
+  gap: 10px;
+}
+
+.logo img {
+  height: 85px;
+  width: 130;
+}
+.nav-links a{
+    text-decoration: none;
+    color: #888ca1;
+    font-size: 17px;
+    font-weight: 500;
+    padding: 25px;
+}
+.nav-links a.active {
+    font-weight: bold;
+    color: #1e1e2f;
+}
+.nav-links a .cart-color{
+    color: black;
+}
+.fa-shopping-cart{
+    color: black;
+}
+ 
+.container-fresh-flower{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.fresh-content{
+    display: flex;
+    padding-top: 220px;
+}
+.head-content{
+    font-size: 63px;
+    font-family: bold;
+}
+.color-content{
+    color: #E95A08;
+}
+.paragraph-content{
+    font-size: 22px;
+    font-family: inter;
+    color: #888ca1;
+}
+
+.our-plant{
+    text-align: center;
+    padding-top: 150px;
+}
+.plant-content{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: noto-serif;
+}
+
+.plant-our-color{
+    color:#E95A08;
+}
+.plant-paragraph-contens{
+    font-size: 22px;
+    font-family: inter;
+    width: 888px;
+    margin: 0 auto;
+    color: #888ca1;
+}
+.top-simple-red-flower{
+  
+}
+.flower-top{
+    width: 270px;
+}
+.top-flower-name{
+    text-align: center;
+    font-size: 22px;
+    color: #888ca1;
+    font-family: inter;
+}
+.flower-rate{
+    text-align: center;
+    font-size: 22px;
+    font-family: inter; 
+    margin-top: 0px;
+}
+.Add-to-card-flower{
+    padding:20px;
+    width: 100%;
+    font-family: inter;
+    font-weight: semi bold;
+    font-size: 16px;
+    background-color: #E95A08;
+    border: none;
+    color: white;
+}
+.flower-plant{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: noto-serif;
+}
+.plant-lover-man{
+    display: flex;
+}
+.top-flower-section{
+    display: flex;
+    gap: 20px;
+    margin-top: 50px;
+}
+.plant-lover-man{
+     display: flex;
+    flex-wrap: wrap;
+    margin-top: 250px;
+
+}
+.flower-and-Trust{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: noto serif;
+}
+
+
+
+.left-panel {
+  flex: 1;
+  width: 100%;
+  position: relative;
+}
+
+.background-image {
+  width: 100%;
+  filter: brightness(85%);
+}
+
+.right-panel {
+  flex: 1;
+  padding: 40px;
+  position: relative;
+  width: 100%;
+}
+.class-divaided{
+    padding-left: 30px;
+    width: 100%;
+    margin-top: -35px;
+}
+
+.badge {
+  width: 300px;
+  position: absolute;
+  top: -170px;
+  left: -190px;
+  z-index: 1;
+}
+
+.flower-and-Trust{
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  gap: 20px;
+}
+
+.nuoredelst-content {
+  list-style: disc;
+  color: #666;
+}
+
+.nuoredelst-content li {
+  margin-bottom: 20px;
+  line-height: 1.6;
+  font-size: 22px;
+  font-family: inter;
+}
+
+.background-image{
+    height: 650px;
+}
+
+
+
+/* Card-container */
+
+.discount-container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.left-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  flex: 1;
+  min-width: 250px;
+}
+
+.card {
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px;
+  color: white;
+  display: flex;
+  align-items: flex-end;
+  padding: 20px;
+  position: relative;
+  overflow: hidden;
+}
+
+.card::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 0;
+}
+
+.card-content {
+  position: relative;
+  z-index: 1;
+}
+
+.card-content h2,
+.card-content h3 {
+  margin-bottom: 10px;
+}
+
+.card-content a {
+  text-decoration: underline;
+  color: white;
+  font-weight: bold;
+}
+
+.card.small {
+  height: 150px;
+}
+
+.card.large {
+  flex: 2;
+  min-width: 300px;
+  height: 320px;
+}
