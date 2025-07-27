@@ -359,10 +359,10 @@
 .footer-section{
   max-width: 1140px;
   margin: 0 auto;
+  padding-top: 50px;
 }
 .footer {
   background-color: #f5f7fc;
-  padding: 40px 60px;
  
 }
 
@@ -379,14 +379,15 @@
 }
 
 .footer-logo {
-  height: 40px;
+  height: 60px;
   margin-bottom: 15px;
 }
 
 .footer-logo-area p {
   color: #666;
-  font-size: 14px;
-  line-height: 1.5;
+  font-size: 22px;
+  font-family: inter;
+  line-height: 1.2;
   max-width: 300px;
 }
 
