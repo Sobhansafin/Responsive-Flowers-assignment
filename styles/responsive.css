@@ -284,3 +284,12 @@
     font-size: 28px;
     font-family: inter;
 }
+/* background-image-section-all */
+
+.background-image-section{
+  height: 530px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  
+}
