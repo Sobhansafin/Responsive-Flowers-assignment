@@ -360,6 +360,7 @@
   max-width: 1140px;
   margin: 0 auto;
   padding-top: 50px;
+  padding-bottom: 50px;
 }
 .footer {
   background-color: #f5f7fc;
@@ -370,7 +371,7 @@
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  gap: 40px;
+  gap: 30px;
 }
 
 .footer-logo-area {
@@ -381,33 +382,34 @@
 .footer-logo {
   height: 60px;
   margin-bottom: 15px;
+  
 }
 
 .footer-logo-area p {
   color: #666;
-  font-size: 22px;
+  font-size: 20px;
   font-family: inter;
   line-height: 1.2;
-  max-width: 300px;
+
 }
 
 .footer-links {
   display: flex;
   flex: 2;
-  gap: 60px;
-  min-width: 250px;
+  gap: 100px;
+  min-width: 300px;
 }
 
 .footer-column {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 30px;
 }
 
 .footer-column a {
   color: #555c6c;
   text-decoration: none;
-  font-size: 14px;
+  font-size: 17px;
   transition: color 0.3s;
 }
 
@@ -419,9 +421,70 @@
   display: flex;
   gap: 20px;
   align-items: start;
+  width: 200px;
 }
 
 .footer-social a {
   text-decoration: none;
   font-size: 20px;
+}
+
+/* media key */
+@media screen and (max-width: 576px){
+ .navbar .logo .top-flower-section{
+   flex-direction: column;
+   text-align: center;
+   align-items: center;
+ }
+}
+
+@media screen  and (max-width:576px) {
+  .list-group-item{
+     flex-direction: column;
+}
+.cart-color{
+  flex-direction: column;
+}
+}
+
+@media  screen and (max-width:576px) {
+  .fresh-content{
+    flex-direction: column-reverse;
+  }
+  
+}
+@media screen and (max-width:576px){
+  .our-plant{
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media screen and (max-width:576px){
+  .top-flower-section{
+    flex-direction: column;
+  }
+}
+@media screen and (max-width:576px) {
+  .plant-lover-man{
+    flex-direction: column;
+  }
+  
+}
+@media screen and (max-width:576px) {
+  .class-divaided .nuoredelst-content{
+    flex-direction: column;
+  }
+  
+}
+
+@media screen and (max-width:576px) {
+  .plant-paragraph-contens{
+    width: 442px;
+  }
+}
+@media screen and (max-width:576px) {
+  .flower-top.top-simple-red-flweor.top-flower-name.flower-rate.Add-to-card-flower{
+    width: 130px;
+   
+  }
 }
